@@ -1,2 +1,2 @@
-# musicplayerv1
+# Scarify
 A simple Flutter Music Player
