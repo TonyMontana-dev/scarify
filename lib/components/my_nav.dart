@@ -36,7 +36,7 @@ class MyDrawer extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(left: 25.0, top: 25),
           child: ListTile(
-            title: const Text("S E T T I N G S"),
+            title: const Text("SETTINGS"),
             leading: const Icon(Icons.settings),
             onTap: () {
               // pop drawer
@@ -46,7 +46,7 @@ class MyDrawer extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => SettingsPage(),
+                  builder: (context) => const SettingsPage(),
                 )
               );
             },
